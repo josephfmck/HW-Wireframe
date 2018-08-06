@@ -4,15 +4,55 @@ body {
     background: #777;
     width: 960px;
     font-size: 18px;
+    margin: 0px auto;
 }
-header, nav, section, aside, footer {
+
+header {
     background: #ebebeb;
-    width: 495px;
     text-align: center;
     margin: 10px 0px;
-    position: relative;
-    left: 100px;
+    padding: 30px 300px;
 }
+
+nav {
+    background: #ebebeb;
+    text-align: center;
+    margin: 10px 0px;
+    padding: 30px 300px;
+}
+
+#full {
+    width: 100%;
+
+}
+#section_1 {
+    background: #ebebeb;
+    text-align: center;
+    margin: 10px 0px;
+    padding: 20px 20px;
+    width: 495px;
+    float: left;
+}
+
+aside {
+    background: #ebebeb;
+    text-align: center;
+    margin: 10px 0px 10px 10px;
+    padding: 20px 20px;
+    width: 495px;
+    float: left;
+    width: 39%;
+    height: 249px;
+}
+
+footer{
+    background: #ebebeb;
+    text-align: center;
+    margin: 10px 0px;
+    padding: 30px 300px;
+    clear: both;
+}
+/**/
 
 article {
     color: #ebebeb;
@@ -28,20 +68,8 @@ h1, h2, h3, p {
     margin: 15px 10px;
 }
 
-header, nav, footer {
-    padding: 30px 300px;
-}
-section {
-    padding: 20px 20px;
-    margin: 20px 0px;
-    float: left;
-}
-aside {
-    float: right;
-    padding: 100px 0px 100px 0px;
-    margin: 20px 0px;
-    float: left;
-}
-footer {
-    float: left;
-}
+/**/
+/*figure out*/
+
+
+
